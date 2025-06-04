@@ -7,7 +7,7 @@ credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
 about-featured-image: plants_038
 # set background-position for featured image, "center", "top", "bottom"
-position: top
+position: center
 # major heading to display over featured image
 # heading: About the Collection
 # paragraph text below heading in featured image
@@ -46,6 +46,3 @@ The resulting static site can be hosted on any basic web server.
 See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
 
 {% include feature/image.html objectid="plants_039" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
