@@ -18,31 +18,20 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-# Heading 1
-
-## About this project
-
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
-
-A link to collection: [Icones Plantes Malabaricum](https://digitalcollections.universiteitleiden.nl/iconesplantarummalabaricum).
-
-- text 1
-- text 2
-- text 3
-
-{% include feature/image.html objectid="plants_036;plants_040;plants_047" width="100" %} 
+# Understanding plants on and of Sri Lanka
+The tropical regions of the Indian Ocean are rich in biodiversity and historically important spaces for knowledge production and circulation. European imperialism and colonisation had led to extensive extraction of materials and dispersal of knowledge – knowledge that are today stored in European repositories, separated from their origins and from each other.
 
 {% include feature/mini-map.html latitude="6.926603032600703" longitude="79.86650045796733" height="350px" map-zoom="6" %}
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+## About this project
+This is a pilot project to re-connect sources to reconstruct an understanding of the historical environment of Sri Lanka as an island.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The materials featured in this project has been drawn from digitised collections at various institutions and libraries.
+Charles E Jarvis (2016). [Hermann Herbarium Data set](https://doi.org/10.5519/0062484), Natural History Museum London, United Kingdom.
+[Icones Plantes Malabaricum](https://digitalcollections.universiteitleiden.nl/iconesplantarummalabaricum), BPL 126D, Leiden University Libraries, the Netherlands.
+[Herbarium Vivum](https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00032798), Chart. A 785, Forschungsbibliothek Gotha, University of Erfurt, Germany.
+[Collectio plantarum Zeylanicum](https://bibnum.institutdefrance.fr/ark:/61562/bi24308), Ms. 3912, Bibliotheque de l’Institute de France, Paris, France.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
+This project is built using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/image.html objectid="plants_036;plants_040;plants_047" width="100" %} 
 {% include feature/image.html objectid="plants_039" width="75" %} 

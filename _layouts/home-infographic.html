@@ -4,27 +4,22 @@ layout: page
 ---
 <div class="row">
 
+  <div class="col-md-12">
+   {% include index/description.html %}
+  </div>
   <div class="col-md-8">
-
-    {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
-    
+    {% include index/featured-terms.html field="subject" title="Explore by subjects" btn-color="primary" %}
+    {% comment %}{% include index/carousel.html title="Browse Items" %}{% endcomment %}
   </div>
   <div class="col-md-4">  
-
-    {% include index/time.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
-    
-    {% include index/content.html %}
-
+    {% include index/featured-terms.html field="location" title="Collections" btn-color="outline-secondary" %}
+    {% comment %}{% include index/content.html %}{% endcomment %}
   </div>
-  <div class="col-md-12">
 
+<div class="col-md-12">
+    {% comment %}{% include feature/timelinejs.html %}{% endcomment %}
+    {% include index/time.html %}
     {% include index/data-download.html %}
-
   </div>
 
 </div>
