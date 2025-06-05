@@ -26,12 +26,16 @@ The tropical regions of the Indian Ocean are rich in biodiversity and historical
 ## About this project
 This is a pilot project to re-connect sources to reconstruct an understanding of the historical environment of Sri Lanka as an island.
 
-The materials featured in this project has been drawn from digitised collections at various institutions and libraries.
+The materials featured in this project has been drawn from digitised collections at various institutions and libraries:
+
 Charles E Jarvis (2016). [Hermann Herbarium Data set](https://doi.org/10.5519/0062484), Natural History Museum London, United Kingdom.
+
 [Icones Plantes Malabaricum](https://digitalcollections.universiteitleiden.nl/iconesplantarummalabaricum), BPL 126D, Leiden University Libraries, the Netherlands.
+
 [Herbarium Vivum](https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00032798), Chart. A 785, Forschungsbibliothek Gotha, University of Erfurt, Germany.
+
 [Collectio plantarum Zeylanicum](https://bibnum.institutdefrance.fr/ark:/61562/bi24308), Ms. 3912, Bibliotheque de l’Institute de France, Paris, France.
 
 This project is built using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+
 {% include feature/image.html objectid="plants_036;plants_040;plants_047" width="100" %} 
-{% include feature/image.html objectid="plants_039" width="75" %} 
