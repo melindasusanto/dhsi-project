@@ -7,7 +7,4 @@ permalink: /collections.html
 cloud-fields: collection
 ---
 
-## Browse Collections
-
-Use this word cloud visualization to browse collections where these materials are housed today.
-Word size is determined by frequency and all words link to a corresponding collection search.
+## Explore collections where these materials are housed today.

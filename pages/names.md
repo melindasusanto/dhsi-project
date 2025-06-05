@@ -1,7 +1,10 @@
 ---
 title: Names
-layout: page
+layout: cloud
 permalink: /names.html
+# Default locations page is configured in "_data/theme.yml"
+# leave cloud-fields as "site.data.theme.locations-fields"
+cloud-fields: name
 ---
 
-## Names
+## Explore names of plants in different languages

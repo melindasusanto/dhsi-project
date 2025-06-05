@@ -6,7 +6,6 @@ date_range,Date,,,,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 collection,Collection,,,,
-source,Source,,,,
 source_link,External Link,,true,,
 identifier,Source Identifier,,,,
 language,Language,,,DCTERMS.language,
