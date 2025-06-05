@@ -7,6 +7,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 collection,Collection,,,,
 source,Source,,,,
+source_link,External Link,external_link,,
 identifier,Source Identifier,,,,
 object_transcript,Transcript,,,,
 language,Language,,,DCTERMS.language,
