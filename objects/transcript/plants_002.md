@@ -1,12 +1,11 @@
 ---
 ---
-
-<div class="container text-center">
-  <div class="row">Namen der Ceijlonse bollen en wortelen aen de camer Amsterdam en Zeelandt overgesonden</div>
- 
-  <div class="row">
-    <div class="col-6">
-   <br>koepensem
+<div class="row">
+    <div class="col-md-12">
+      <p>Namen der Ceijlonse bollen en wortelen aen de camer Amsterdam en Zeelandt overgesonden</p>
+    </div>
+    <div class="col-md-6">
+      <p><br>koepensem
   <br>kirindi
   <br>mie
  <br>emenanga
@@ -35,9 +34,10 @@
     <br>katte kootanghe
     <br>katte roodoe
     <br>bomboe
-  </div>
-    <div class="col-6">
-    <br>ambe
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p><br>ambe
     <br>kina warasse
     <br>mandetie
     <br>haltaranne
@@ -66,6 +66,5 @@
    <br>moendelle
    <br>karauw
    <br>walkolau
+      </p>
     </div>
-  </div>
-</div>
