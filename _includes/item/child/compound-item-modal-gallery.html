@@ -85,7 +85,7 @@
 
                                 <div class="modal-body">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-7">
                                             <div class="card mb-4 text-center">
                                                 <div class="m-2">
                                                     {% if child.display_template == 'image' %}
@@ -111,8 +111,17 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            transcript space
+                                        <div class="col-md-5">
+                                            {% if child.object_transcript %}
+                                                {% assign transcript_type = child.object_transcript | slice: 0,1 %}
+                                                {% if transcript_type == '/' %}
+                                                {% assign transcript_location = child.object_transcript | remove_first: '/' %}
+                                                {% assign transcript = site.pages | where: 'path', transcript_location | first %}
+                                                {{ transcript.content }}
+                                                {% else %}
+                                                {{ child.object_transcript }}
+                                                {% endif %}
+                                            {% endif %}
                                         </div>
                                         <div class="col-md-12">
                                             {% include item/child/metadata.html %}
