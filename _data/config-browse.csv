@@ -2,7 +2,7 @@ field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 description,,,true,
 creator,Creator,,,
-name,Name,,,Name,Name
+name,Name,,hidden,Name,Name
 subject,,true
 collection,,,true,,Collection
 identifier,,,true,Identifier
