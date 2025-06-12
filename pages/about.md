@@ -20,11 +20,11 @@ padding: 6em
 
 # Tracing knowledge about plants of and from Sri Lanka
 
-The tropical regions of the Indian Ocean are rich in biodiversity and historically important spaces for knowledge production and circulation. European imperialism and colonisation had led to extensive extraction of materials and dispersal of knowledge – knowledge that are today stored in European repositories, separated from their origins and from each other.
-
-{% include feature/mini-map.html latitude="6.926603032600703" longitude="79.86650045796733" height="350px" map-zoom="6" %}
+The tropical regions of the Indian Ocean are rich in biodiversity and historically important spaces for knowledge production and circulation. European imperialism and colonisation had led to extensive extraction of materials and dispersal of knowledge – knowledge that are today stored in European repositories, separated from their origins and from each other. 
 
 This project re-connects digital sources to reconstruct an understanding of the historical environment of Sri Lanka as an island.
+
+{% include feature/mini-map.html latitude="6.926603032600703" longitude="79.86650045796733" height="350px" map-zoom="6" %}
 
 The materials featured have been drawn from digital collections at the following institutions and libraries:
 
